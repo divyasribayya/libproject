@@ -1,0 +1,24 @@
+button.accordion-button.collapsed , .accordion-button {
+    background: none !important;
+    color: #fff !important;
+  }
+  .accordion-button:not(.collapsed){
+    color: #ef5226  !important;
+    box-shadow: none !important;
+  }
+  .accordion-button:focus {
+    border:none !important;
+    box-shadow: none !important;
+  }
+  .accordion-item:first-of-type {
+    border-radius: 10px !important;
+  }
+  .accordion-item{
+    border: 1px solid #D0DBFF !important;
+}
+.accordion-button::after{
+    background-image: url('../../assets/bike/accsvg.svg') !important;
+}
+.accordion-button:not(.collapsed)::after{
+background-image: url('../../assets/bike/accodingup.svg') !important;
+}
