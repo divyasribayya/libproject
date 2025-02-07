@@ -5,7 +5,7 @@ import OfferCard from "./OfferCard";
 import OurPartnerSection from "./OurPartnerSection";
 import Testimonials from "./Home/Testimonials";
 import CallToAction from "./Home/CallToAction";
-
+import HowItWorks from "./HowItWorks"
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -89,6 +89,7 @@ const Home = () => {
       <Categories />
       <OfferCard />
       <OurPartnerSection />
+      <HowItWorks />
       <Testimonials />
       <CallToAction />
     </>

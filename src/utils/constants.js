@@ -349,3 +349,47 @@ export const testimonialsData = [
     altText: "manikanta_img"
 },
 ];
+
+
+export const howItWorksSteps = [
+  {
+    stepTitle: "STEP 01",
+    image: require("../media/images/images01.jpeg"),
+    alt: "Step 1",
+    description: "Select from 13,400+ Premium video templates",
+    highlight: "Designed by seasoned professionals",
+  },
+  {
+    stepTitle: "STEP 02",
+    image: require("../media/images/images02.jpeg"),
+    alt: "Step 2",
+    description: "Make it unique and on-brand with our online",
+    highlight: "Template Editor",
+  },
+  {
+    stepTitle: "STEP 03",
+    image: require("../media/images/Half Saree 05.jpeg"),
+    alt: "Step 2",
+    description: "Make it unique and on-brand with our online",
+    highlight: "Template Editor",
+  },
+  {
+    stepTitle: "STEP 04",
+    image: require("../media/images/Half Saree 03.jpeg"),
+    alt: "Step 2",
+    description: "Make it unique and on-brand with our online",
+    highlight: "Template Editor",
+  },
+];
+export const movies = [
+  { title: "Last Action Hero", year: 1993, image: "last-action-hero.jpg" },
+  { title: "Looney Tunes: Back in Action", year: 2003, image: "looney-tunes.jpg" },
+  { title: "An Action Hero", year: 2022, image: "an-action-hero.jpg" },
+  { title: "A Civil Action", year: 1998, image: "a-civil-action.jpg" },
+  { title: "Die Hard", year: 1988, image: "die-hard.jpg" },
+  { title: "Mad Max: Fury Road", year: 2015, image: "mad-max.jpg" },
+  { title: "The Dark Knight", year: 2008, image: "dark-knight.jpg" },
+  { title: "John Wick", year: 2014, image: "john-wick.jpg" },
+  { title: "Gladiator", year: 2000, image: "gladiator.jpg" },
+  { title: "The Matrix", year: 1999, image: "matrix.jpg" },
+];
